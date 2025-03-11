@@ -25,32 +25,27 @@ A full-stack blog application built with **React** for the frontend and **NestJS
 ## 🏗️ Installation & Setup  
 
 ### **1. Clone the Repository**  
-```sh
+
 git clone https://github.com/marwamagdyx/BlogAssignment.git
 cd BlogAssignment
 
 ### **2. Backend Setup (NestJS)**  
-```sh
 cd nestbackend
 npm install 
 
 ### **3. Environment Variables**  
-```sh
 Create a .env file in nestbackend/ and add
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 
 ### **4. Run the backend** 
-```sh
 npm run start:dev
 
 ### **5. Frontend Setup (ReactJS)**  
-```sh
 cd ../frontend
 npm install
 
 ### **6. Run the frontend**
-```sh
 npm start
 
 
